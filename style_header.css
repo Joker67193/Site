@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    justify-content: space-around;
+    background: url('./img/камера.png') no-repeat;
+    margin: auto;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+}
+
+nav {
+    margin-left: 28%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 60px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.active {
+    font-weight: bold;
+    color: orange;
+}
+
+.logo {
+    margin-right: 85%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.text {
+    margin-top: 35%;
+    margin-left: -35%;
+    color: yellow;
+    position: absolute;
+    font-size: 135%;
+    text-shadow: 0 0 15px rgb(255, 51, 0);
+}
+
+.menu-item {
+display: inline-block;
+}
+        
+.menu-item:hover {
+text-shadow: 0 0 10px orange;
+}
+        
+.menu-item {
+display: inline-block;
+transition: all 0.6s ease 0s;
+}
+
+.Profil {
+    margin-top: 1%;
+    margin-left: 80%;
+    position: absolute;
+}

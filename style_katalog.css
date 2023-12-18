@@ -1,0 +1,51 @@
+.card {
+    width: 550px;
+    height: 400px;
+    margin-left: 31%;
+    position: relative;
+    margin-top: 6%;
+    }
+    
+.product, .description {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    background-color: black;
+    border: 3px solid;
+    }
+    
+.description a {
+    display: inline-block;
+    padding: 30px 50px;
+    margin-top: 18%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: orange;
+    }
+    
+.product, .description {
+    backface-visibility: hidden;
+    }
+    
+.description {
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 110%;
+    transform: rotateY(180deg);
+    }
+    
+.product, .description {
+    transition: 1.5s;
+    }
+    
+.card:hover .product {
+    transform: rotateY(180deg);
+    }
+    
+.card:hover .description {
+    transform: rotateY(360deg);
+    }
